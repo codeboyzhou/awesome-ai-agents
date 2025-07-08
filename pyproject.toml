@@ -1,0 +1,19 @@
+[project]
+name = "awesome-ai-agents"
+version = "0.1.0"
+description = "A curated list of awesome AI agents"
+authors = [
+    { name = "codeboyzhou", email = "imzhouchen@gmail.com" },
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+repository = "https://github.com/codeboyzhou/awesome-ai-agents"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fast-agent-mcp>=0.2.40",
+]
