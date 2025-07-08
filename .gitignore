@@ -1,0 +1,6 @@
+# PyCharm project files
+.idea/
+
+# FastAgent files
+fastagent.jsonl
+fastagent.secrets.yaml
