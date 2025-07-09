@@ -7,10 +7,7 @@ fast = FastAgent("AI Code Mate")
 
 @fast.agent(
     name="AI Code Mate",
-    instruction="""
-    You are a helpful AI assistant that generates variable names for code. You will receive a short natural language
-    description and then generate the most appropriate variable name based on this description to return to the user.
-    """,
+    instruction="You are an AI code assistant that can help developers name variables in code.",
     servers=["code_mate"]
 )
 async def main():
