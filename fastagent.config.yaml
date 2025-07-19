@@ -30,6 +30,6 @@ logger:
 # MCP Servers
 mcp:
   servers:
-    code_mate:
+    mcp_server_code_mate:
       command: "uv"
-      args: ["run", "src/mcp/code_mate.py"]
+      args: ["run", "src/mcp/mcp_server_code_mate.py"]

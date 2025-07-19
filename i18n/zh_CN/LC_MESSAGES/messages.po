@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-09 01:05+0800\n"
+"POT-Creation-Date: 2025-07-19 06:43+0800\n"
 "PO-Revision-Date: 2025-07-09 01:03+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -18,15 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: src/mcp/code_mate.py:12
-msgid "Code variable naming"
-msgstr "代码变量命名"
+#: src/mcp/mcp_server_code_mate.py:12
+msgid "Name your code variables"
+msgstr "为你的代码变量命名"
 
-#: src/mcp/code_mate.py:13
-msgid "Give a suitable code variable name based on the specified programming language and the description."
-msgstr "根据指定的编程语言和描述信息给出一个合适的代码变量名称"
-
-#: src/mcp/code_mate.py:17
-msgid "variable naming"
-msgstr "变量命名"
-
+#: src/mcp/mcp_server_code_mate.py:13
+msgid "Generate the most appropriate variable name based on the description you have provided."
+msgstr "根据你提供的描述生成最合适的代码变量名"

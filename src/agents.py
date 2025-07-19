@@ -2,13 +2,13 @@ import asyncio
 
 from mcp_agent.core.fastagent import FastAgent
 
-fast = FastAgent("AI Code Mate")
+fast = FastAgent("Awesome AI Agents")
 
 
 @fast.agent(
     name="AI Code Mate",
-    instruction="You are an AI code assistant that can help developers name variables in code.",
-    servers=["code_mate"]
+    instruction="You are an AI assistant skilled in programming.",
+    servers=["mcp_server_code_mate"]
 )
 async def main():
     # use the --model command line switch or agent arguments to change model
