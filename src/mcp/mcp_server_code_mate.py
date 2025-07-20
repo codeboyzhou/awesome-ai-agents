@@ -14,10 +14,10 @@ mcp = FastMCP("AI Code Mate")
 )
 async def code_variable_naming(description: str) -> str:
     """
-    Give a suitable code variable name based on the specified programming language and the description.
+    Create an MCP prompt to generate the prompt message for naming your code variables.
 
     Args:
-        description (str): The detailed variable description you need to provide.
+        description (str): The detailed variable description you need to provide, required.
 
     Returns:
         The prompt message for AI LLMs, which is fixed format.
