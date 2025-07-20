@@ -16,5 +16,5 @@ classifiers = [
 requires-python = ">=3.12"
 dependencies = [
     "babel>=2.17.0",
-    "fast-agent-mcp>=0.2.40",
+    "fast-agent-mcp>=0.2.43",
 ]
