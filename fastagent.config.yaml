@@ -33,3 +33,6 @@ mcp:
     mcp_server_code_mate:
       command: "uv"
       args: ["run", "src/mcp/mcp_server_code_mate.py"]
+    mcp_server_translation:
+      command: "uv"
+      args: ["run", "src/mcp/mcp_server_translation.py"]

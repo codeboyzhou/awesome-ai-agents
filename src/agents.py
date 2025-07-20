@@ -10,6 +10,11 @@ fast = FastAgent("Awesome AI Agents")
     instruction="You are an AI assistant skilled in programming.",
     servers=["mcp_server_code_mate"]
 )
+@fast.agent(
+    name="AI Translation",
+    instruction="You are an AI assistant skilled in translating text.",
+    servers=["mcp_server_translation"]
+)
 async def main():
     # use the --model command line switch or agent arguments to change model
     async with fast.run() as agent:
