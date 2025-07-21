@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-19 06:43+0800\n"
+"POT-Creation-Date: 2025-07-21 15:47+0800\n"
 "PO-Revision-Date: 2025-07-09 01:03+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -18,10 +18,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: src/mcp/mcp_server_code_mate.py:12
+#: src/mcp/mcp_server_code_mate.py:17
 msgid "Name your code variables"
-msgstr "为你的代码变量命名"
+msgstr "为你的代码变量推荐一个合适的命名"
 
-#: src/mcp/mcp_server_code_mate.py:13
-msgid "Generate the most appropriate variable name based on the description you have provided."
+#: src/mcp/mcp_server_code_mate.py:18 src/mcp/mcp_server_code_mate.py:40
+msgid ""
+"Generate the most appropriate variable name based on the description you "
+"have provided."
 msgstr "根据你提供的描述生成最合适的代码变量名"
+
+#: src/mcp/mcp_server_code_mate.py:22
+msgid "The detailed variable description you need to provide, required."
+msgstr "你需要提供变量信息的详细描述，必填"
+
+#: src/mcp/mcp_server_translation.py:17
+msgid "Translate text content"
+msgstr "翻译文本内容"
+
+#: src/mcp/mcp_server_translation.py:18 src/mcp/mcp_server_translation.py:59
+msgid "Translate text content to a specified language."
+msgstr "把文本内容翻译为指定的语言"
+
+#: src/mcp/mcp_server_translation.py:22
+msgid "The text content you want to translate, required."
+msgstr "你想要翻译的文本内容，必填"
+
+#: src/mcp/mcp_server_translation.py:28
+msgid ""
+"The target language you expected. You can describe it in any way that "
+"LLMs can understand, dialect is also supported. This argument is "
+"optional, if not specified, the LLM will detect it automatically."
+msgstr "你期望翻译成什么语言。你可以用任何大模型能读懂的方式描述它，也支持方言。这个参数是非必填的，如果不指定，大模型会自动检测目标语言"
+

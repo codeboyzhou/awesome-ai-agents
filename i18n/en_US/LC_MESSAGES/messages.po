@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-19 06:43+0800\n"
+"POT-Creation-Date: 2025-07-21 15:47+0800\n"
 "PO-Revision-Date: 2025-07-19 06:38+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_US\n"
@@ -18,10 +18,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: src/mcp/mcp_server_code_mate.py:12
+#: src/mcp/mcp_server_code_mate.py:17
 msgid "Name your code variables"
 msgstr ""
 
-#: src/mcp/mcp_server_code_mate.py:13
-msgid "Generate the most appropriate variable name based on the description you have provided."
+#: src/mcp/mcp_server_code_mate.py:18 src/mcp/mcp_server_code_mate.py:40
+msgid ""
+"Generate the most appropriate variable name based on the description you "
+"have provided."
 msgstr ""
+
+#: src/mcp/mcp_server_code_mate.py:22
+msgid "The detailed variable description you need to provide, required."
+msgstr ""
+
+#: src/mcp/mcp_server_translation.py:17
+msgid "Translate text content"
+msgstr ""
+
+#: src/mcp/mcp_server_translation.py:18 src/mcp/mcp_server_translation.py:59
+msgid "Translate text content to a specified language."
+msgstr ""
+
+#: src/mcp/mcp_server_translation.py:22
+msgid "The text content you want to translate, required."
+msgstr ""
+
+#: src/mcp/mcp_server_translation.py:28
+msgid ""
+"The target language you expected. You can describe it in any way that "
+"LLMs can understand, dialect is also supported. This argument is "
+"optional, if not specified, the LLM will detect it automatically."
+msgstr ""
+
